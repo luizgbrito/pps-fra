@@ -85,19 +85,20 @@
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <div style="margin: auto;">
     <div class="esconder">
-<!-- HOTMART - Widget de vente incitative -->
-<div id="box_hotmart"></div>
-<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+<!-- HOTMART - Upsell Widget -->
+        <div id="box_hotmart"></div>
+        <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+        
+        <script>
+        opts = {
+        key: 'USL-139873-465684-129c5ea4bef0c57d88c700daaa46659d',
+        width: '650' ,
+        height: '420'
+        };
+        Upsell.Widget.show(opts);
+        </script>
+        <!-- HOTMART - Upsell Widget [end] -->
 
-<script>
-opts = {
-key: 'USL-131278-426107-d5d4808751e2deba8efeb649033afcb2',
-width: '650' ,
-height: '420'
-};
-Upsell.Widget.show(opts);
-</script>
-<!-- HOTMART - Widget de vente incitative [fin] -->
     </div>
   </div>
 </div>
